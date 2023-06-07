@@ -5,8 +5,8 @@
   <meta http-equiv='content-type' content='text/html; charset=utf-8'>
   <meta http-equiv='X-UA-Compatible' content='IE=edge' />
   <meta name='viewport' content='width=device-width, initial-scale=1, minimum-scale=0.3, maximum-scale=1' />
-  <title>물금고 진로진학사이트</title>
-  <link rel='shortcut icon' type='image/x-icon' href='https://cdn.riroschool.kr/assets/img/favicon.png' />
+  <title>시험 시간표</title>
+  <!-- <link rel='shortcut icon' type='image/x-icon' href='https://cdn.riroschool.kr/assets/img/favicon.png' /> -->
   <style>
     @import url(https://fonts.googleapis.com/earlyaccess/jejugothic.css);
     @import url(https://fonts.googleapis.com/earlyaccess/nanumgothic.css);
@@ -93,7 +93,7 @@
       });
 
       //마우스를 손가락 모양으로 하고 여백주기
-      $('img.ui-datepicker-trigger').css({ 'cursor': 'pointer', 'position': 'relative', 'top': '10px', 'left': '3px' });
+      $('img.ui-datepicker-trigger').css({ 'cursor': 'default', 'position': 'relative', 'top': '10px', 'left': '3px' });
 
       $.datepicker.setDefaults({
         changeYear: true, //콤보 박스에 연도 보이기
@@ -223,8 +223,8 @@
       <!-- end : 20220608 edge 이동 -->
 
       <form name='form1' method='post' action='?action=timetable&db=1703&cate=14&uid='>
-        <!--            <p class='time-tit'>시간표</p>
-            <div class='noprint' style='width:100%;height:80px;max-width:600px;margin:auto;'>
+                   <p class='time-tit' style="padding-bottom : 0px !important;">시간표</p>
+<!--             <div class='noprint' style='width:100%;height:80px;max-width:600px;margin:auto;'>
                 <p class='time-check'><select class='all-sel' onchange="if(this.value != '') M_location('?action=timetable'+this.value);"><option value=''>----- 과정 선택 -----</option><option value='&db=1701&cate=17&wd=&uid=9374&t_id=&cls=&show_name=&show_room=1&show_seat=&table_type='>방과후학교 > 2023년 직업인 초청 특강 (7월 5일)</option><option value='&db=1701&cate=16&wd=&uid=7898&t_id=&cls=&show_name=&show_room=1&show_seat=&table_type='>방과후학교 > 2023년 과학의 날 동아리 체험 부스 신청 (18일 오후 10시 시작)</option><option value='&db=1701&cate=15&wd=&uid=7884&t_id=&cls=&show_name=&show_room=1&show_seat=&table_type='>방과후학교 > 2023년 1학기 1학년 연구역량 강화 특강</option><option value='&db=1703&cate=13&wd=&uid=7838&t_id=&cls=&show_name=&show_room=1&show_seat=&table_type='>이동수업출석부 > 2023년 2학기 2학년 이동수업(연습)</option><option value='&db=1703&cate=12&wd=&uid=7264&t_id=&cls=&show_name=&show_room=1&show_seat=&table_type='>이동수업출석부 > 2023학년도 1학기 2학년 1차지필고사 시간표</option><option value='&db=1703&cate=11&wd=&uid=6982&t_id=&cls=&show_name=&show_room=1&show_seat=&table_type='>이동수업출석부 > 2023학년도 1학기 3학년 1차지필 고사 시간표</option><option value='&db=1701&cate=14&wd=&uid=6954&t_id=&cls=&show_name=&show_room=1&show_seat=&table_type='>방과후학교 > 2023년 1학기 2학년 선택형 보충수업 신청</option><option value='&db=1701&cate=13&wd=&uid=6928&t_id=&cls=&show_name=&show_room=1&show_seat=&table_type='>방과후학교 > 2023년 1학기 1학년 선택형 보충수업 신청</option><option value='&db=1701&cate=12&wd=&uid=6900&t_id=&cls=&show_name=&show_room=1&show_seat=&table_type='>방과후학교 > 2023년 1학기 3학년 방과후학교</option><option value='&db=1703&cate=10&wd=&uid=5888&t_id=&cls=&show_name=&show_room=1&show_seat=&table_type='>이동수업출석부 > 2023년 3학년 이동수업 완성시간표</option><option value='&db=1703&cate=8&wd=&uid=5019&t_id=&cls=&show_name=&show_room=1&show_seat=&table_type='>이동수업출석부 > 2023년 1학기 2학년 이동수업 최종</option><option value='&db=1703&cate=6&wd=&uid=3874&t_id=&cls=&show_name=&show_room=1&show_seat=&table_type='>이동수업출석부 > 2023년 2학기 2학년 이동수업</option></select></p>
                 <p align='center'> 
             <div class='time-checkbox' style='position:relative;font-size:0;'>
@@ -253,7 +253,7 @@
             </div>
                 </p>
             </div> -->
-        <br><br>
+        <!-- <br><br> -->
         <p align='center'></p>
         <div style='padding:0;width:600px;margin:auto;'>
           <table style='width:calc(100% + 70px);margin:0 0 0 -70px;' class='table_box time-table' align=center>
@@ -280,22 +280,22 @@
               <td>1</td>
               <td>&nbsp;</td>
               <td>&nbsp;</td>
-              <td onclick="window.open('lecture.php?action=view&db=1703&cate=14&uid=8726');"><span
-                  style='font-weight:700;font-style:normal;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;cursor:pointer;'>영어독해와작문(3-3)</span><span
+              <td><span
+                  style='font-weight:700;font-style:normal;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;cursor:default;'>영어독해와작문(3-3)</span><span
                   style='font-weight:700;font-style:normal;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;'>303</span>
               </td>
               <td>&nbsp;</td>
               <td>&nbsp;</td>
-              <td onclick="window.open('lecture.php?action=view&db=1703&cate=14&uid=8704');"><span
-                  style='font-weight:700;font-style:normal;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;cursor:pointer;'>미적분(3-4)</span><span
+              <td><span
+                  style='font-weight:700;font-style:normal;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;cursor:default;'>미적분(3-4)</span><span
                   style='font-weight:700;font-style:normal;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;'>304</span>
               </td><!-- <td >&nbsp;</td> -->
             </tr>
             <tr>
               <td>2</td>
               <td>&nbsp;</td>
-              <td onclick="window.open('lecture.php?action=view&db=1703&cate=14&uid=8772');"><span
-                  style='font-weight:700;font-style:normal;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;cursor:pointer;'>기하(3-9)</span><span
+              <td><span
+                  style='font-weight:700;font-style:normal;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;cursor:default;'>기하(3-9)</span><span
                   style='font-weight:700;font-style:normal;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;'>309</span>
               </td>
               <td>&nbsp;</td>
@@ -308,12 +308,12 @@
               <td>3</td>
               <td>&nbsp;</td>
               <td>&nbsp;</td>
-              <td onclick="window.open('lecture.php?action=view&db=1703&cate=14&uid=8692');"><span
-                  style='font-weight:700;font-style:normal;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;cursor:pointer;'>생명과학Ⅱ(3-10)</span><span
+              <td><span
+                  style='font-weight:700;font-style:normal;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;cursor:default;'>생명과학Ⅱ(3-10)</span><span
                   style='font-weight:700;font-style:normal;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;'>310</span>
               </td>
-              <td onclick="window.open('lecture.php?action=view&db=1703&cate=14&uid=8682');"><span
-                  style='font-weight:700;font-style:normal;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;cursor:pointer;'>언어와매체(3-2)</span><span
+              <td><span
+                  style='font-weight:700;font-style:normal;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;cursor:default;'>언어와매체(3-2)</span><span
                   style='font-weight:700;font-style:normal;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;'>302</span>
               </td>
               <td>&nbsp;</td>
@@ -323,21 +323,21 @@
             <tr>
               <td>4</td>
               <td>&nbsp;</td>
-              <td onclick="window.open('lecture.php?action=view&db=1703&cate=14&uid=8796');"><span
-                  style='font-weight:700;font-style:normal;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;cursor:pointer;'>지구과학Ⅱ(3-8)</span><span
+              <td><span
+                  style='font-weight:700;font-style:normal;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;cursor:default;'>지구과학Ⅱ(3-8)</span><span
                   style='font-weight:700;font-style:normal;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;'>308</span>
               </td>
               <td>&nbsp;</td>
-              <td onclick="window.open('lecture.php?action=view&db=1703&cate=14&uid=8812');"><span
-                  style='font-weight:700;font-style:normal;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;cursor:pointer;'>화학Ⅱ(3-7)</span><span
+              <td><span
+                  style='font-weight:700;font-style:normal;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;cursor:default;'>화학Ⅱ(3-7)</span><span
                   style='font-weight:700;font-style:normal;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;'>307</span>
               </td>
-              <td onclick="window.open('lecture.php?action=view&db=1703&cate=14&uid=8800');"><span
-                  style='font-weight:700;font-style:normal;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;cursor:pointer;'>물리학Ⅱ(3-9)</span><span
+              <td><span
+                  style='font-weight:700;font-style:normal;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;cursor:default;'>물리학Ⅱ(3-9)</span><span
                   style='font-weight:700;font-style:normal;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;'>309</span>
               </td>
-              <td onclick="window.open('lecture.php?action=view&db=1703&cate=14&uid=8826');"><span
-                  style='font-weight:700;font-style:normal;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;cursor:pointer;'>사회문제탐구(3-9)</span><span
+              <td><span
+                  style='font-weight:700;font-style:normal;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;cursor:default;'>사회문제탐구(3-9)</span><span
                   style='font-weight:700;font-style:normal;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;'>309</span>
               </td>
               <!-- <td>&nbsp;</td> -->
